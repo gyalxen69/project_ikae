@@ -1,0 +1,25 @@
+h2{
+    display: block;
+    padding-left: 100px;
+    background-color: rgb(209, 206, 206);
+}
+
+.categories{
+    background-color: chocolate;
+    width: auto;
+}
+
+.bathroom-text{
+    position: absolute;
+}
+
+.image-1{
+    overflow: hidden;
+    width: calc(100% / 4);
+    height: 560px;
+}
+
+.bathroom{
+    width: 200px;
+    height: 400px;
+}
