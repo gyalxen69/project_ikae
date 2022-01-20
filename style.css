@@ -1,3 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(./header.jpg);
+    background-color: #EEEEEE;
+}
+.logo{
+    border-color: #494949;
+    margin: 30px;
+    margin-left: 50px;
+}
+.navbar{
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    --background-color: blue;
+}
+nav{
+    display: inline-flex;
+    margin: 10px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 30vw;
+    --background-color: chartreuse;
+}
+.shop{
+    color: #4d4d4d;
+    font-weight: bold;
+
+}
+li{
+    font-family: "Roboto";
+    color: #c9c9c9;
+}
+.freshfut{
+    margin-left: 15%;
+    width: 70%;
+    height: 500px;
+    background-color: #EEEEEE;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 h2{
     display: block;
     padding-left: 100px;
